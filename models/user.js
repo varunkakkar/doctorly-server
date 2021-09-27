@@ -7,11 +7,6 @@ let timezones = require('../data/timezones.json').map(t => {
 })
 
 const userSchema = new Schema({
-    username: {
-        type: String,
-        unique: true,
-        required: true
-    },
     password: {
         type: String,
         required: true
@@ -21,6 +16,7 @@ const userSchema = new Schema({
     },
     phone: {
         type: String,
+        unique: true,
         required: true
     },
     gender: {
