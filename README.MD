@@ -7,10 +7,11 @@ User can Login using the Phone Number/Username & Password / OTP Login.
     2. Send OTP
     3. Verify OTP
 - Sign up
-User can sign up using the Phone Number. On Signing Up the user will receive an OTP which will be verified, on verifiying user will enter the password. On Successful Validation of Password, User Account will be created.
+User can sign up using the Phone Number or Username & Password. On Signing Up the user will receive an OTP which will be verified, on verifiying user will enter the password. On Successful Validation of Password, User Account will be created.
     1. Send OTP to Phone Number
     2. Verify OTP
-    3. Create New User
+    3. Check Username
+    4. Create New User
 - Forgot Password
 User can change the password of his/her account as per need.
     1. Issue Password Reset Token
