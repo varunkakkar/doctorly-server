@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/varunkakkar/doctorly-server/issues"
   },
-  "homepage": "https://github.com/varunkakkar/doctorly-server#readme"
+  "homepage": "https://github.com/varunkakkar/doctorly-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  }
 }
